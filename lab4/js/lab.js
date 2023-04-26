@@ -1,5 +1,5 @@
 // Rock Paper Scissors
-// Author: Wes Babb <gababb@ucsc.edu> & Elijah Hynson <hynson@ucsc.edu>
+// Author: Wes Babb <gababb@ucsc.edu> & Elijah Hynson <ehynson@ucsc.edu>
 // Date: 4/21/23
 /*
   Import Random
