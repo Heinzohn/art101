@@ -1,0 +1,83 @@
+/* we can use a single css file to style all the files in our wwebsite */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+  background-color: goldenrod;
+  }
+  
+  /* we can have rules apply to multiple elements at the same time with commas */
+  h1,h2,h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+  }
+  
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+
+  #chal {
+    font-family: monospace;
+  }
+
+  .big{
+    font-size: xx-large;
+    color: red;
+  }
+
+  .small{
+    font-size:x-small;
+  }
+
+  .default{
+    font-size: initial;
+  }
+  
+  .contain{
+    border: solid navy;
+    background-color:darkgreen;
+    color:lightseagreen;
+    width: 300px;
+    block-size: 100px;
+  }
+
+  #probtext {
+    font-family: monospace;
+  }
+
+  #reftext {
+    font-family: monospace;
+  }
+
+  #restext {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+  #content {
+    margin: 10px;
+    padding: 10px;
+    border: dashed red;
+    background-image:linear-gradient(white,gold);
+  }
+  
+  #portrait {
+    width: 425px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: solid red;
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    position: relative;
+    margin-bottom: 10px;
+    border: dashed red;
+    background-color:lightseagreen;
+  }
